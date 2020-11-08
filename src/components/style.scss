@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #E5E5E5;
+}
+
+@import './app.scss';
+@import './card/card.scss';
+@import './search/search.scss';
+@import './placeholder/placeholder.scss';
+@import './modal/modal.scss';
